@@ -17,7 +17,8 @@
   <EXPORTFORMATS>
     <VS2019 targetFolder="Builds/VisualStudio2019">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="Audioprojectdemo"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Audioprojectdemo" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Users\garre\OneDrive\Desktop\VST effects\Experimental Builds"/>
         <CONFIGURATION isDebug="0" name="Release" targetName="Audioprojectdemo"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
